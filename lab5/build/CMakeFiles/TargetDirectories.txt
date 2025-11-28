@@ -1,5 +1,0 @@
-/Users/artems/Desktop/c++_labs/MAI_SEM3_LAB5/lab5/build/CMakeFiles/lab5_app.dir
-/Users/artems/Desktop/c++_labs/MAI_SEM3_LAB5/lab5/build/CMakeFiles/tests.dir
-/Users/artems/Desktop/c++_labs/MAI_SEM3_LAB5/lab5/build/CMakeFiles/test.dir
-/Users/artems/Desktop/c++_labs/MAI_SEM3_LAB5/lab5/build/CMakeFiles/edit_cache.dir
-/Users/artems/Desktop/c++_labs/MAI_SEM3_LAB5/lab5/build/CMakeFiles/rebuild_cache.dir

@@ -72,13 +72,21 @@ TEST(DoublyLinkedListTest, PopBackAndIterator) {
     list.pop_back();
     
     auto it = list.begin();
-    ASSERT_EQ(*it, 10); ++it;
-    ASSERT_EQ(*it, 20); ++it;
-    ASSERT_EQ(it, list.end());
+    ASSERT_EQ(*it, 10); 
+    
+    ++it;
+    ASSERT_EQ(*it, 20);
+    
+
     
     --it;
-    ASSERT_EQ(*it, 20);
+    ASSERT_EQ(*it, 10);
+    
+    ++it;
+    ++it;
+    ASSERT_EQ(it, list.end());
 }
+
 
 TEST(DoublyLinkedListTest, ComplexStruct) {
     MemoryResource mr(POOL_SIZE);
